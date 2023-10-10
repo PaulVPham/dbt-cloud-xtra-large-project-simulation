@@ -11,10 +11,10 @@ renamed as (
         desynpuf_id,
         bene_birth_dt
         bene_death_dt,
-        bene_sex_ident_cd,
+        bene_sex_ident_cd
         bene_race_cd,
         bene_esrd_ind,
-        sp_state_code,
+        sp_state_code
         bene_county_cd,
         bene_hi_cvrage_tot_mons,
         bene_smi_cvrage_tot_mons,
