@@ -9,6 +9,7 @@ renamed as (
 
     select
         desynpuf_id,
+        fake_test_column,
         bene_birth_dt,
         bene_death_dt,
         bene_sex_ident_cd,
