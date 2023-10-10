@@ -3,13 +3,13 @@ with source as (
 
     select * from {{ source('medicare_sample_data', 'medicare_samples__2008_beneficiary_summary_file_sample') }}
 
-),
+)
 
 renamed as (
 
     select
         desynpuf_id,
-        bene_birth_dt
+        bene_birth_dt,
         bene_death_dt,
         bene_sex_ident_cd,
         bene_race_cd,
