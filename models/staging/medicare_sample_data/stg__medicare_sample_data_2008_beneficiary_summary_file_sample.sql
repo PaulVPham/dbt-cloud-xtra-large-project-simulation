@@ -9,7 +9,7 @@ renamed as (
 
     select
         desynpuf_id,
-        bene_birth_dt,
+        bene_birth_dt
         bene_death_dt,
         bene_sex_ident_cd,
         bene_race_cd,
