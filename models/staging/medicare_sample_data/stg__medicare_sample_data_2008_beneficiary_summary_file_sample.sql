@@ -3,13 +3,13 @@ with source as (
 
     select * from {{ source('medicare_sample_data', 'medicare_samples__2008_beneficiary_summary_file_sample') }}
 
-)
+),
 
 renamed as (
 
     select
         desynpuf_id,
-        fake_test_column,
+        fake_test_column, --fake column should fail job
         bene_birth_dt,
         bene_death_dt,
         bene_sex_ident_cd,
